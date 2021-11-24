@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Money Converter</title>
+        <link rel="stylesheet" href="bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">
+                    Converter
+                </h1>
+                <form>
+                    <div class="form-group text-center">
+                        <input type="number" id="currencyInput" class="form-control form-control-lg">
+                    </div>
+                </form>
+                <div id="output" class="mt-3">
+                    <div class="card bg-primary mb-2">
+                        <div class="card-block">
+                            <h4>Rubl:</h4>
+                            <div id="rublOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-danger mb-2">
+                        <div class="card-block">
+                            <h4>Dollar:</h4>
+                            <div id="dollarOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-success mb-2">
+                        <div class="card-block">
+                            <h4>Yevro:</h4>
+                            <div id="euroOutput"></div>
+                        </div>
+                    </div>
+                    <div class="card bg-info mb-2">
+                        <div class="card-block">
+                            <h4>Dirham:</h4>
+                            <div id="dirhamOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
